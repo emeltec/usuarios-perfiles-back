@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UsuariosPerfiles.Abstraction\UsuariosPerfiles.Abstraction.csproj" />
+    <ProjectReference Include="..\UsuariosPerfiles.Aplication\UsuariosPerfiles.Aplication.csproj" />
+    <ProjectReference Include="..\UsuariosPerfiles.DataAccess\UsuariosPerfiles.DataAccess.csproj" />
+    <ProjectReference Include="..\UsuariosPerfiles.DTO\UsuariosPerfiles.DTO.csproj" />
+    <ProjectReference Include="..\UsuariosPerfiles.Repository\UsuariosPerfiles.Repository.csproj" />
+    <ProjectReference Include="..\UsuariosPerfiles.Services\UsuariosPerfiles.Services.csproj" />
+  </ItemGroup>
+
+</Project>
